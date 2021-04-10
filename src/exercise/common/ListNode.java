@@ -1,6 +1,9 @@
 package exercise.common;
 
-//Definition for singly-linked list.
+/**
+ * Definition for singly-linked list.
+ * 单链表节点类定义
+ */
 public class ListNode {
     int val;
     public ListNode next;
