@@ -1,5 +1,7 @@
 package exercise.t0408;
 
+import exercise.common.ListNode;
+
 /**
  * Author: listeningrain
  * Date: 2021/4/7 下午10:23
@@ -24,13 +26,4 @@ public class LinkedListReverse {
         }
         return switchLeftNode;
     }
-}
-
-  //Definition for singly-linked list.
-  class ListNode {
-    int val;
-    ListNode next;
-    ListNode() {}
-    ListNode(int val) { this.val = val; }
-    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }
